@@ -11,4 +11,18 @@
 **Memory Allocator**
 : A memory allocator manages the heap. In C, it is malloc and free.
 
+## Different Type Of Allocators
 
+### Linear Allocator
+
+### Stack Allocator
+
+### Pool Allocator
+
+### Free List Allocator - Linked List
+
+### Free List Allocator - Red Black Tree
+
+### Buddy Allocator
+
+### Slab Allocator
