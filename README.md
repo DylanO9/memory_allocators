@@ -31,24 +31,46 @@ Increment the offset to be right outside of the newly allocate dmemory.
 #### Free
 Can not free because there is not tracking being done
 
+---
+
 ### Stack Allocator
+
+---
 
 ### Pool Allocator
 
+---
+
 ### Free List Allocator - Linked List
+
+---
 
 ### Free List Allocator - Red Black Tree
 
+---
+
 ### Buddy Allocator
+
+---
 
 ### Slab Allocator
 
+---
+
 ### Segregated Free List
+
+---
 
 ### Two-Level Segregate Fit
 
+---
+
 ### Cache-aware Allocator
 
+---
+
 ### Hybrid / layered Allocator
+
+---
 
 ### TLS / per-thread allocators 
