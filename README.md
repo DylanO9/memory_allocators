@@ -74,3 +74,19 @@ Can not free because there is not tracking being done
 ---
 
 ### TLS / per-thread allocators 
+
+
+## Benchmarking
+What do we need a benchmarking system for?
+- To compare different allocation strategies under identical loads
+
+What do we want to measure?
+- Allocation Speed
+	- Time per allocation
+	- Allocations per second (throughput)	
+- Deallocation Speed
+	- Time per deallocation
+	- Deallocations per second (throughput)
+- Fragmentation
+	- Internal Fragmentation: Wasted space inside of allocated blocks
+	- External Fragmentation: Free memory that exists but cannot satisfy a request
